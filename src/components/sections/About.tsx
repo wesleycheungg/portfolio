@@ -60,7 +60,7 @@ export function About() {
           {/* Right column: photo */}
           <div className="relative rounded-lg overflow-hidden border border-border-subtle bg-surface-secondary min-h-[480px] h-full">
             <img
-              src="/photo.jpg"
+              src={`${import.meta.env.BASE_URL}photo.jpg`}
               alt="Wesley Cheung"
               className="w-full h-full object-cover absolute inset-0"
               onError={(e) => {

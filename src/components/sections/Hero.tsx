@@ -80,7 +80,7 @@ export function Hero() {
               Let's Connect
             </a>
             <a
-              href="/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
               download
               target="_blank"
               rel="noopener noreferrer"
