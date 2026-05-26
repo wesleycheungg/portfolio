@@ -8,7 +8,7 @@ interface ProjectCardProps {
   index: number;
 }
 
-export function ProjectCard({ project, index }: ProjectCardProps) {
+export function ProjectCard({ project, index: _index }: ProjectCardProps) {
   const [expanded, setExpanded] = useState(false);
 
   return (
