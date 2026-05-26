@@ -10,7 +10,7 @@ export function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-surface-primary/80 backdrop-blur-sm border-b border-border-subtle">
       <div className="max-w-5xl mx-auto px-8 h-14 flex items-center justify-between">
-        <a href={import.meta.env.BASE_URL} className="flex items-center justify-center w-8 h-8 rounded-sm bg-content-primary text-surface-primary text-[11px] font-semibold tracking-widest hover:opacity-80 transition-opacity">
+        <a href="/portfolio/" className="flex items-center justify-center w-8 h-8 rounded-sm bg-content-primary text-surface-primary text-[11px] font-semibold tracking-widest hover:opacity-80 transition-opacity">
           WC
         </a>
         <div className="flex items-center gap-6">
