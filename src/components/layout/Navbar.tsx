@@ -19,6 +19,10 @@ export function Navbar() {
               <a
                 key={id}
                 href={`#${id}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById(id)?.scrollIntoView({ behavior: "smooth" });
+                }}
                 className={`text-[13px] transition-colors capitalize ${
                   activeId === id
                     ? "text-content-primary"
