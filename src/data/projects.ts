@@ -33,24 +33,6 @@ export const projects: Project[] = [
     category: "fullstack",
   },
   {
-    slug: "nba-trade-machine",
-    title: "NBA Trade Machine",
-    subtitle: "Full-stack",
-    description:
-      "Salary cap calculator with CBA compliance validation and multi-team trade support. Complex state management with real-time rule checking.",
-    details: [
-      "Implements 125% trade rule, taxpayer MLE, and trade exceptions",
-      "Multi-team trades with real-time validation feedback",
-      "Complex Redux state management for trade scenarios",
-    ],
-    tech: ["React", "TypeScript", "Redux"],
-    liveUrl: "#",
-    githubUrl: "#",
-    image: `${import.meta.env.BASE_URL}images/projects/nba-trade-machine.png`,
-    featured: true,
-    category: "fullstack",
-  },
-  {
     slug: "pong-ping",
     title: "Ping Pong Leaderboard",
     subtitle: "Full-stack",
