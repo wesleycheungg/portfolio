@@ -14,6 +14,26 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    slug: "front-door",
+    title: "Front Door",
+    subtitle: "Frontend",
+    description:
+      "A themeable apartment website template that powers any property from one shared codebase, with a full Playwright suite covering behavior, accessibility, and visual regression.",
+    details: [
+      "One shared template (HTML, CSS, jQuery, Bootstrap) themed per property through a single data file and CSS variables",
+      "Two live demo properties showing the same code rendering completely different looks",
+      "Playwright suite: behavior, axe accessibility scans, and visual regression across Chrome, Firefox, and Safari, desktop and phone",
+      "Every issue found while building is logged in ISSUES.md with cause and fix",
+      "Runs on GitHub Actions on every push",
+    ],
+    tech: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Playwright"],
+    liveUrl: "https://wesleycheungg.github.io/front-door/",
+    githubUrl: "https://github.com/wesleycheungg/front-door",
+    image: `${import.meta.env.BASE_URL}images/projects/frontdoor.png`,
+    featured: true,
+    category: "fullstack",
+  },
+  {
     slug: "nba-shot-chart",
     title: "NBA Shot Chart & Player Database",
     subtitle: "Full-stack",
