@@ -31,8 +31,8 @@ export const experience: Experience[] = [
     ],
   },
   {
-    title: "Customer Care Representative",
-    company: "AppFolio",
+    title: "Technical Support Engineer",
+    company: "AppFolio, Inc",
     period: "Aug 2020 – Sep 2021",
     bullets: [
       "Performed root cause analysis on 100+ escalated production defects, assigning severity and priority in Salesforce and partnering with engineers to verify fixes before release.",
